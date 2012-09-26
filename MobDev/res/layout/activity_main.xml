@@ -26,10 +26,10 @@
     <DigitalClock
         android:id="@+id/digitalClock"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" 
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" 
-        android:visibility="invisible"/>
+        android:layout_centerVertical="true"
+        android:visibility="invisible" />
 
     <SeekBar
         android:id="@+id/seekBar1"
