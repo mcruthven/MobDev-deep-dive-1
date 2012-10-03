@@ -1,14 +1,11 @@
-package com.example.guiwidget;
+package com.example.guiwidgets;
 
-//import com.cumulus.MoveCopy.R;
-
-import com.example.guiwidget.R.string;
-
+import com.example.guiwidgets.R.string;
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.Menu;
 import android.graphics.Color;
 import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -19,7 +16,6 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 public class MainActivity extends Activity {
 	private static final String TAG = "Transition";
 	private int pinkLevel=255,blueLevel=255,yellowLevel=255;
-	private boolean setvar=true;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
